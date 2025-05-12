@@ -1,7 +1,7 @@
-/*type inference: types are not dynamic, it is defined in compilation stage (not the runtime)
+/*type inference (var): types are not dynamic, it is defined in compilation stage (not the runtime)
 don't work with null and the classes fields (only local variables)
  */
-public class Types {
+class Types {
     public static void main(String[] args) {
         int num_1 = 10;
         String type_1 = ((Object) num_1).getClass().getName(); //output is string
